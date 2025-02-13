@@ -1,11 +1,12 @@
-import Navbar from "./component/Navbar/Navbar"
-import Header from "./component/Header/Header"
+
+import Counter from "./counter"
+import './index.css';
 export default function App() {
   return (
    <>
-    <Navbar />
    
-    <Header />
+    <Counter />
+
    </>
   )
 }
